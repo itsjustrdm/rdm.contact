@@ -191,22 +191,29 @@ a:hover {
 	align-items:center;
 	justify-content:center;
 	width:18.75rem;             	/* 300px */
- 	min-height:3rem;                /* 48px */
-  	padding:0.75rem 1rem;         	/* 12px ; 16px */
+ 	min-height:3.25rem;            /* 52px - slightly taller */
+  	padding:0.875rem 1.25rem;      /* 14px 20px - more padding */
   	font-size:1.125rem;           	/* 18px */
-  	font-weight:700;
+  	font-weight:600;              /* slightly less bold */
 	text-decoration:none;
 	white-space:normal;
   	background-color:var(--button-background,transparent);
 	color:var(--button-text,#000000);
 	border:var(--button-border,none);
-	border-radius:0.5rem;
+	border-radius:0.75rem;        /* more rounded corners */
 	cursor:pointer;
 	box-sizing:border-box;
-	hyphens:auto;               	/* Delete this to remove automatic hyphen on line break */
-  	margin-bottom:1rem;
+	hyphens:auto;
+  	margin-bottom:0.875rem;       /* slightly less spacing between buttons */
 	text-align:center;
 	line-height:1.3;
+	transition:all 0.2s ease;    /* smooth transitions */
+	box-shadow:0 2px 4px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+.button:hover,button:hover {
+	transform:translateY(-2px);   /* slight lift effect */
+	box-shadow:0 4px 8px rgba(0,0,0,0.15); /* stronger shadow on hover */
 }
 
 /* Icons
@@ -249,15 +256,15 @@ a:hover {
   
 /* Dark theme */
 :root.theme-dark {
-	color-scheme:dark;
+	color-scheme: dark;
 }
-:root.theme-dark :focus-visible {
+.theme-dark body {
+	background-color: #121212;
+	color: #ffffff;
+}
+.theme-dark :focus-visible {
 	outline: 2px solid #4899F7;
 	outline-offset: 2px;
-  }
-:root.theme-dark body {
-	background-color:#121212;
-	color:#ffffff;
 }
 :root.theme-dark a:not(.button) {
 	color:#4899F7;
@@ -379,4 +386,13 @@ ul li {
 	font-weight:800;
 	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.eot');
 	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.eot?#iefix') format('embedded-opentype'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2') format('woff2'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff') format('woff'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.ttf') format('truetype'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.svg#OpenSans') format('svg');
+}
+
+/* Add to your existing CSS */
+h1 span {
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff00; /* Terminal green */
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
 }
