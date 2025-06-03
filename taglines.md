@@ -5,3 +5,23 @@
 - Building things, breaking things, learning things
 - Ops leader by day, domain hoarder by night
 - /dev/null enthusiast and semicolon advocate
+- while(alive) { tryNotToBreakThings(); }
+- SELECT * FROM skills WHERE debug_ability > coffee_consumed;
+- My code works locally, and that's all that matters
+- I don't always test my code, but when I do, I do it in production
+- Error 418: I'm a teapot masquerading as a developer
+- git commit -m "I hope this works"
+- Turning caffeine into code since [object Object]
+- sudo make me_a_sandwich
+- // TODO: Add a clever tagline here
+- Schrödinger's backup: The data both exists and doesn't until you try to restore it
+- 404: Personality not found
+- Have you tried turning it off and on again?
+- Professional Googler with advanced copy-paste certification
+- My commit messages are longer than my attention sp
+- IPv6 ready (but still using IPv4)
+- DNS: Don't kNow what'S wrong
+- rm -rf /problems/*
+- Life is like Git: you can never fully delete your past mistakes
+- Docker? I hardly know her!
+- Keep calm and blame the DNS
