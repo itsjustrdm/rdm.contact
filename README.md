@@ -1,11 +1,13 @@
 # who is rdm
+
+```
  ____  ____  __  __ 
 |  _ \|  _ \|  \/  |
 | |_) | | | | |\/| |
 |  _ <| |_| | |  | |
 |_| \_\____/|_|  |_|
              . I O               
-
+```
 $ whois rdm | rdm.contact
 My commit messages are longer than my attention span
 
